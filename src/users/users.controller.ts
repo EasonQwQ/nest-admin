@@ -9,7 +9,7 @@ import {
   CrudRequest,
   CrudRequestInterceptor,
 } from '@nestjsx/crud';
-@UseGuards(AuthGuard('jwt'))
+// @UseGuards(AuthGuard('jwt'))
 @Crud({
   model: {
     type: User,
